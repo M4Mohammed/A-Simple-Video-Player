@@ -85,7 +85,7 @@ function handleTimelineUpdate(e) {
     1,
     Math.floor((percent * video.duration) / 10)
   )
-  const previewImgSrc = `assets/previewImgs/preview${previewImgNumber}.jpg`
+  const previewImgSrc = `previewImgs/preview${previewImgNumber}.jpg`
   previewImg.src = previewImgSrc
   timelineContainer.style.setProperty("--preview-position", percent)
 
